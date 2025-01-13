@@ -61,7 +61,6 @@ nav a.active{
 @media(max-width:995px){
     nav{
         position: absolute;
-        display: none;
         top: 0;
         right: 0;
         width: 40%;
@@ -85,9 +84,6 @@ nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4b;
-    }
-    .nav a{
-        display: flex;
     }
 }
     
@@ -225,7 +221,7 @@ span{
 }
 @media(max-width:995px){
     .home{
-        flex-direction: column;
+        flex-direction:column;
         margin: 5rem 4rem;
     }
     .home .home-content h3{
@@ -238,7 +234,5 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
-    .nav a{
-        display: flex;
-    }
+    
 }

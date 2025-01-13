@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>AJSAL</title>
 </head>
 <style>
@@ -43,15 +44,18 @@
     .sidebar a{
         width: 100%;
     }
+    .menu-button{
+        display: none;
+    }
     li{
         list-style: none;
     }
     
-    @media(max-width: 800px){
+    @media(max-width: 996px){
         .hideOnMobile{
             display: none;
         }
-        .menubutton{
+        .menu-button{
             display: block;
         }
     }
@@ -66,12 +70,13 @@
 <body>
     <header>
         <a href="#" class="logo">AJSAL</a>
-        <nav>
 
+       
+        <nav>
             <a class="hideOnMobile" href="index.html" class="active"> Home</a>
             <a class="hideOnMobile" href="service.html" >Services</a>
             <a class="hideOnMobile" href="work.html" >Work</a>
-            <a class="hideOnMobile" href="education.html" >Educatio</a>
+            <a class="hideOnMobile" href="education.html" >Education</a>
             <a class="hideOnMobile" href="about.html" >About</a>
             <a class="hideOnMobile" href="contact.html" >Contact</a>
             <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
@@ -82,7 +87,7 @@
             <li><a href="index.html" class="active"> Home</a></li>
             <li><a href="service.html" >Services</a></li>
             <li><a href="work.html" >Work</a></li>
-            <li><a href="education.html" >Educatio</a></li>
+            <li><a href="education.html" >Education</a></li>
             <li><a href="about.html" >About</a></li>
             <li><a href="contact.html" >Contact</a></li>
             </ul>
